@@ -1,0 +1,235 @@
+.autorization-container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: auto;
+}
+
+.autorization {
+    width: 500px;
+    background-color: #fffefe;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -168px 0 0 -270px;
+    padding: 20px 20px 30px 20px;
+}
+
+.autorizationButton {
+    width: 45%;
+    border-radius: 2px !important;
+    height: 25px !important;
+    font-size: 12px !important;
+    padding: 0 !important;
+}
+
+
+.autorizationHeader {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin: 0px 0px 30px 0px;
+}
+
+.ant-form-item {
+    margin: 10px !important;
+}
+.remember-checkbox {
+    margin-top: 5px;
+}
+
+.ant-layout-header {
+    background-color: #45566e !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    height: 50px !important;
+}
+
+.logo {
+    height: 50px;
+}
+
+.userInfoContainer {
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    height: 35px;
+}
+
+.logOut-button {
+    background: none;
+    border: none;
+    color: #fffefe;
+    margin: 20px 5px;
+}
+
+.ant-table-thead .ant-table-cell {
+    padding: 10px 10px !important;
+}
+
+.ant-table-row {
+    padding: 15px !important;
+}
+
+.table-button {
+    background-color: #4290f7;
+    color: #fff;
+    height: 30px;
+    border-radius: 2px !important;
+    padding: 5px 15px !important;
+    font-size: 12px;
+}
+
+.ant-table {
+    margin: 10px 50px !important;
+}
+
+.ant-checkbox-wrapper {
+    margin-left: 10px;
+}
+
+.ant-pagination-item,
+.ant-pagination-item-link {
+    background-color: #fff !important;
+    border: 1px solid #e5e2e2 !important;
+}
+
+.ant-pagination-item-active {
+    border: 1px solid #4290f7 !important;
+}
+
+.home-button {
+    display: flex;
+    margin-left: 30px;
+}
+
+.home-button h3 {
+    margin: 0;
+}
+
+.home-button img {
+    width: 15px;
+    margin: 5px 5px 5px 15px;
+}
+
+.roomContain {
+    margin: 0px 50px;
+}
+
+.mainInformation {
+    display: flex;
+}
+
+.roomData-h1 {
+    font-size: 25px !important;
+    text-decoration: solid underline 3px !important;
+}
+
+.roomData-h3 {
+    font-size: 9px !important;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.roomData-h3 p {
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.checkIn-checkOut {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+.check-button {
+    background-color: #4290f7;
+    color: #fff;
+    padding: 0px 12px;
+    height: 25px;
+    margin: 0px 5px;
+    border-radius: 2px !important;
+    font-size: 12px;
+    font-weight: 500;
+}
+.cancel-button{
+    color: #000000;
+    padding: 0px 12px;
+    height: 30px;
+    border-radius: 2px !important;
+    font-weight: 700;
+    font-size: 12px;
+    height: 25px;
+
+}
+.roomFeatures {
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.features {
+    margin-top: 5px;
+}
+
+.roomFeatures h3, p {
+    font-size: 11px;
+    line-height: 17px !important;    
+}
+
+.feature-item {
+    display: flex;
+    align-items:baseline;
+    font-weight: 500;
+    line-height: 2;
+}
+
+.feature-item img {
+    height: 10px;
+    float:left;
+    margin: 5px 5px 0px 0px;
+}
+
+.description {
+    line-height: 2;
+    display: flex;
+    align-items: baseline;
+    margin: 0px 50px 20px 50px;
+}
+
+.description h3 {
+    width: 90px;
+    font-size: 10px;
+}
+
+.ant-modal-title {
+    font-weight: 700 !important;
+}
+
+.ant-modal-content {
+    padding: 10px !important;
+    border-radius: 2px !important;
+}
+
+.ant-modal-header {
+    margin: 10px 20px 40px 20px !important;
+}
+.ant-modal-body {
+    margin: 10px 20px 0px 20px !important;
+}
+
+.checkIn-titles label {
+    font-weight: 600;
+}
+
+.checOut-content {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.cneckIn-buttons {
+    margin: 0 !important;
+}
